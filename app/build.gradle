@@ -3,14 +3,14 @@ plugins {
 }
 
 android {
-    compileSdk 30
+    compileSdk 31
 
     defaultConfig {
         applicationId "in.smartbitinfotech.toaster"
         minSdk 21
         targetSdk 30
         versionCode 2
-        versionName "2.0"
+        versionName "2.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
