@@ -10,7 +10,7 @@ android {
         minSdk 21
         targetSdk 30
         versionCode 1
-        versionName "1.5"
+        versionName "1.6"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -44,7 +44,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'in.smartbitinfotech'
                 artifactId = 'toaster'
-                version = '1.5'
+                version = '1.6'
             }
         }
     }
